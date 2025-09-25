@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 1.1rem;
+}
+
+.ggc{
+  color: white;
+  font-size: 1.3rem;
+  font-family: "paralucent", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  
+}
+
+h2 {
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #1c4128;
+}
+
+/* .navbar-brand{
+
+} */
+
+.nav-item a {
+  font-size: 1.3rem;
+  color: white;
+  font-family: "paralucent", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.navbar-brand img {
+  height: 50px;
+  width: auto;
+}
+
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: rgb(109, 155, 97);
+}
+
+.nav-link:hover {
+  color: paleturquoise;
+}
+
+/* .d-flex.flex-wrap.justify-content-between.align-items-center.py-3.my-4.border-top{
+    background-color: black;
+    color: white;
+} */
+
+.col-md.info {
+  background-color: rgb(218, 255, 148);
+  border-radius: 22px;
+  padding: 3%;
+}
+
+.container-fluid.marketing{
+  margin-top: 2%;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.container.product {
+  max-width: 1500px;
+}
+
+.container .contact{
+  background-image: url("/images/Logo-maker-project-1.jpeg"); 
+ background-color: #fbfbfb; 
+}
+
+.navbar-toggler {
+  background-color: rgb(211, 255, 186);
+}
+
+.icon-link > .bi {
+  width: .75em;
+  height: .75em;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+.card:hover{
+  box-shadow: 0 0 15px rgba(0,0,0,.4);
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
+
+
+img.image.bd-placeholder-img.rounded{
+align-items: center;}
+  
+  

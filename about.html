@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>George's Garden</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="JS/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/vml5hok.css">
+  </head>
+
+  <body>
+
+    <!-- NAV -->
+    <!-- Navbar goes outside the container -->
+    <nav class=" navbar navbar-expand-lg"> <!--creates responsive nav
+      nav is at medium (md) breakpoint-->
+      <div class="container-fluid d-flex align-items-center justify-content-between"> <!--creates padding-->
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <img src="/images/ggc02.png" alt="logo" alt="logo" class="me-2"><h1><span class="ggc d-none d-lg-inline">George's
+                Garden Center</span></h1>
+        </a>
+
+          <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#navmenu">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navmenu">
+              <ul class="navbar-nav ms-auto ">
+                  <!--margin-start auto aligns to the right-->
+                  <li class="nav-item">
+                      <a href="index.html" class="nav-link">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="about.html" class="nav-link">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="product.html" class="nav-link">Products</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+    <!--  -->
+    <main>
+      <div
+        class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
+        <div class="col-md-6 p-lg-5 mx-auto my-5">
+          <h2 class="display-3 fw-bold">What About Us?</h2>
+          <h3 class="fw-normal text-muted mb-3">Check Us Out!</h3>
+
+        </div>
+      </div>
+
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+        <!--d-md-flex: Flexbox layout from medium screens upward.
+          flex-md-equal: Ensures both columns take up equal width.
+          w-100: Full width of the container.
+          my-md-3: Vertical margin on medium screens.
+          ps-md-3: Padding-start on medium screens.-->
+        <div class="border rounded-3 text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+          <div class="my-3 py-3">
+            <!--d isplay-5: Large heading. -->
+            <h2 class="display-5">Welcome to George's Garden, your one-stop shop
+              for everything green and growing.</h2>
+          </div>
+          <!-- lead: Slightly larger, more readable paragraph text-->
+          <p class="lead"> From lush indoor foliage to vibrant flowering
+            perennials, we offer a wide variety of plants, fruits, pots, herbs
+            and roses to suit every space, style, and skill level.</p>
+        </div>
+        <div
+          class="  me-md-3 pt-3 px-3 pt-md-5 px-md-5  overflow-hidden">
+          <div class="my-3 py-3">
+            <div class="h-100 w-100">
+              <div class="ratio ratio-16x9">
+                <iframe width="560" height="315"
+                  src="https://www.youtube.com/embed/IGGZ6-84gsU?si=iC0V09ZU2DKD3Z0P"
+                  title="YouTube video player" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+        <div
+          class=" me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+          <div class="my-3 p-3">
+            <div class="h-100 w-100  bg-primary">
+              <div class="ratio ratio-16x9">
+                <iframe width="560" height="315"
+                  src="https://www.youtube.com/embed/2agkrUHz5HU?si=FPJ-AXmzJYTs9aXF"
+                  title="YouTube video player" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="border rounded-3 text-bg-success me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+          <div class="my-3 p-3">
+            <h2 class="display-5">Our Mission?</h2>
+            <p class="lead">
+              Whether you're starting your first succulent shelf or designing a
+              full backyard garden, we've got the greenery and guidance to help
+              you grow confidently..</p>
+          </div>
+        </div>
+
+      </div>
+
+    </main>
+    <!-- <div class="container"> -->
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <!-- 
+                d-flex enables flexbox layout
+                 justify-content-between equal space between child elements
+                 py-3 vertical padding
+                 my-4 vertical margin
+                 -->
+      <p class="col-md-4 mb-0 text-muted">&copy; 2025 George's
+        Garden</p>
+      <!--
+                 medium-screen 4 of 12 columns
+               mb-0 removes margin bottom
+               text-muted applies light grey
+                -->
+
+      <a href="/"
+        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      </a>
+      <!-- 
+                col-md-4 4 columns on medium + screens
+               d-flex align-items-center justify-content-center Centers content vertically and horizontally (e.g., a logo). 
+               mb-3 mb-md-0: Bottom margin on small screens; no margin on medium+
+              me-md-auto: Pushes this element to the left on medium+ screens.
+               link-dark: Makes the link dark (instead of blue).
+               text-decoration-none: Removes the underline.
+               -->
+
+      <ul class="nav col-md-4 justify-content-end ">
+        <!-- 
+                    Creates a horizontal list of nav links
+                     col-md-4: Takes up 4 columns.
+                     justify-content-end: Aligns the nav to the right. -->
+        <!-- 
+                     nav-link: Bootstrap style for links inside navs.
+                     px-2: Horizontal padding.
+                     text-muted: Light gray color to match the footer's style. 
+                     -->
+        <li class="nav-item"><a href="index.html"
+            class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="about.html"
+            class="nav-link px-2 text-muted">About</a></li>
+        <li class="nav-item"><a href="product.html"
+            class="nav-link px-2 text-muted">Product</a></li>
+        <li class="nav-item"><a href="contact.html"
+            class="nav-link px-2 text-muted">Contact</a></li>
+      </ul>
+    </footer>
+    <!-- </div> -->
+  </body>
+</html>
